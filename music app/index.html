@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Smooth Scrolling Navbar</title>
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+        <nav class="navbar">
+          <div class="logo">Harmony Hub</div>
+          <ul class="nav-links">
+            <li><a href="#home">Intro</a></li>
+            <li><a href="#featured-playlists">featured-playlists</a></li>
+            <li><a href="#recommended-albums">recommended-albums</a></li>
+            <li><a href="#user-reviews">user-reviews</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+        <!-- Section 1 Start -->
+        <section id="home">
+          <section id="intro">
+            <div class="intro-container">
+              <div class="intro-text">
+                <h1>Harmony Hub</h1>
+                <p>Discover your new favorite tunes</p>
+                <button>Explore Featured Playlists</button>
+              </div>
+              <div class="intro-svg">
+                <svg viewBox="0 0 100 100">
+                  <circle cx="50" cy="50" r="40" fill="#4CAF50" />
+                  <circle cx="50" cy="50" r="30" fill="#FFC107" />
+                  <circle cx="50" cy="50" r="20" fill="#2196F3" />
+                </svg>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- Section 1 End -->
+        <!-- Section 2 Start -->
+        <section id="featured-playlists">
+          <div class="featured-container">
+            <h2>Featured Playlists</h2>
+            <p>Discover our curated playlists for every mood and genre</p>
+            <div class="playlist-cards">
+              <div class="playlist-card">
+                <img
+                  src="https://i.pinimg.com/originals/4f/86/c3/4f86c3073efb1e6aeda192d70d40b7d2.jpg"
+                  alt="Playlist Image"
+                />
+                <div class="playlist-info">
+                  <h3>After Hours</h3>
+                  <p>Relaxing tunes for a laid-back afternoon</p>
+                  <span class="song-count">20 songs</span>
+                </div>
+                <button class="follow-btn">Follow</button>
+              </div>
+              <div class="playlist-card">
+                <img
+                  src="https://i.pinimg.com/originals/54/ac/d0/54acd071e6a00ab96c5335258fba0710.jpg"
+                  alt="Playlist Image"
+                />
+                <div class="playlist-info">
+                  <h3>Dark Side</h3>
+                  <p>Relaxing tunes for a laid-back afternoon</p>
+                  <span class="song-count">20 songs</span>
+                </div>
+                <button class="follow-btn">Follow</button>
+              </div>
+              <div class="playlist-card">
+                <img
+                  src="https://w0.peakpx.com/wallpaper/800/3/HD-wallpaper-marshmello-screen-lock-music-locked-logo-song-themes-simple-screens-sign.jpg"
+                  alt="Playlist Image"
+                />
+                <div class="playlist-info">
+                  <h3>Chill Vibes</h3>
+                  <p>Relaxing tunes for a laid-back afternoon</p>
+                  <span class="song-count">20 songs</span>
+                </div>
+                <button class="follow-btn">Follow</button>
+              </div>
+              <div class="playlist-card">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg"
+                  alt="Playlist Image"
+                />
+                <div class="playlist-info">
+                  <h3>Chill Vibes</h3>
+                  <p>Relaxing tunes for a laid-back afternoon</p>
+                  <span class="song-count">20 songs</span>
+                </div>
+                <button class="follow-btn">Follow</button>
+              </div>
+              <!-- Add more playlist cards here -->
+            </div>
+          </div>
+        </section>
+        <!-- Section 2 End -->
+
+        <!-- Section 3 Start -->
+        <section id="recommended-albums">
+          <div class="recommended-container">
+            <h2>Recommended Albums</h2>
+            <p>Discover new music tailored to your tastes</p>
+            <div class="search-bar">
+              <input type="search" placeholder="Search for an album..." />
+              <span class="search-icon"><i class="fas fa-search"></i></span>
+            </div>
+            <div class="album-cards">
+              <div class="album-card">
+                <img
+                  src="https://static.javatpoint.com/top10-technologies/images/top-10-english-singers1.jpg"
+                  alt="Album Cover"
+                />
+                <div class="album-info">
+                  <h3>Album Title</h3>
+                  <p>Artist Name</p>
+                  <p>Brief description of the album...</p>
+                </div>
+                <button class="know-more-btn">Know More</button>
+              </div>
+              <div class="album-card">
+                <img
+                  src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d28e6145-bc8a-46ce-acc3-50cf4850027a/d5ueb0t-7988c1b3-21c8-4c85-ae76-8f6b47a86ff0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QyOGU2MTQ1LWJjOGEtNDZjZS1hY2MzLTUwY2Y0ODUwMDI3YVwvZDV1ZWIwdC03OTg4YzFiMy0yMWM4LTRjODUtYWU3Ni04ZjZiNDdhODZmZjAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ey9Yv3emjZiElmKhmvr7zHmB5eSTsljAHuP2MPTqoRY"
+                  alt="Album Cover"
+                />
+                <div class="album-info">
+                  <h3>Album Title</h3>
+                  <p>Artist Name</p>
+                  <p>Brief description of the album...</p>
+                </div>
+                <button class="know-more-btn">Know More</button>
+              </div>
+              <div class="album-card">
+                <img
+                  src="https://marketplace.canva.com/EAFkEPPmFZo/1/0/1600w/canva-simple-modern-photography-missed-music-album-cover-OK6LJkK1X8U.jpg"
+                  alt="Album Cover"
+                />
+                <div class="album-info">
+                  <h3>Album Title</h3>
+                  <p>Artist Name</p>
+                  <p>Brief description of the album...</p>
+                </div>
+                <button class="know-more-btn">Know More</button>
+              </div>
+              <!-- Add more album cards here -->
+            </div>
+          </div>
+        </section>
+
+        <!-- Modal HTML -->
+        
+        <!-- Section 3 End -->
+
+        <!-- Section 4 Start -->
+        <section id="user-reviews">
+          <div class="recommended-container">
+            <h2>User Reviews</h2>
+
+            <div class="album-cards">
+              <div class="album-card">
+                <img id="username"
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
+                  alt="Album Cover"
+                />
+                <div class="album-info">
+                  <h3>User Name</h3>
+                  <p>Artist Name</p>
+                  <p>Brief description of the album...</p>
+                </div>
+                <button class="know-more-btn">Know More</button>
+              </div>
+              <div class="album-card">
+                <img id="username"
+                  src="https://i.pinimg.com/736x/33/2a/38/332a38a37347ea46e3db6f5532cad9db.jpg"
+                  alt="Album Cover"
+                />
+                <div class="album-info">
+                  <h3>User Name</h3>
+                  <p>Artist Name</p>
+                  <p>Brief description of the album...</p>
+                </div>
+                <button class="know-more-btn">Know More</button>
+              </div>
+              <div class="album-card">
+                <img id="username"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTtjf1WnbJXF76vAnFOm2n868Vst_nbq8G2A&s"
+                  alt="Album Cover"
+                />
+                <div class="album-info">
+                  <h3>User Name</h3>
+                  <p>Artist Name</p>
+                  <p>Brief description of the album...</p>
+                </div>
+                <button class="know-more-btn">Know More</button>
+              </div>
+              <!-- Add more album cards here -->
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 4 End -->
+
+        <footer class="footer">
+          <div class="social-icons">
+            <a href="https://facebook.com/your-page" target="_blank"
+              ><img class="icon" src="./facebook_5968764.png" alt="Facebook"
+            /></a>
+            <a href="https://twitter.com/your-page" target="_blank"
+              ><img class="icon" src="./twitter_145812.png" alt="Twitter"
+            /></a>
+            <a href="https://instagram.com/your-page" target="_blank"
+              ><img class="icon" src="./instagram_2111463.png" alt="Instagram"
+            /></a>
+            <a href="https://linkedin.com/company/your-page" target="_blank"
+              ><img class="icon" src="./linkedin_145807.png" alt="LinkedIn"
+            /></a>
+          </div>
+          <div class="legal-links">
+            <a href="terms.html" target="_blank">Terms and Conditions</a>
+            <a href="privacy.html" target="_blank">Privacy Policy</a>
+          </div>
+          <button id="back-to-top"><a href="#home"></a>Back to Top</button>
+        </footer>
+        <script src="./script.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
